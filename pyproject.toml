@@ -3,7 +3,9 @@ name = "cartographer"
 version = "0.0.1"
 description = "An agent that maps an unfamiliar codebase"
 requires-python = ">=3.12"
-dependencies = ["httpx>=0.28"]
+dependencies = [
+    "httpx>=0.28",
+]
 
 [project.optional-dependencies]
 dev = ["pytest>=8", "ruff>=0.6", "mypy>=1.11"]
