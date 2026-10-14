@@ -449,8 +449,8 @@ wrong answer is obvious.
 
 **Check it:** two requests go out, each capped at one output token. Note the ratio it
 prints; if you change `CARTOGRAPHER_MODEL`, it changes, which is exactly why it is measured
-and not hardcoded. A ratio somewhere around 3 to 4 characters per token is typical for
-code. A `ZeroDivisionError` means the model returned the same count for both samples;
+and not hardcoded. Expect a few characters per token for code; the exact
+value depends on the model's tokenizer, which is why you measure it. A `ZeroDivisionError` means the model returned the same count for both samples;
 switch model.
 
 The `calibration` line should read `2 calls`, with a small input count and an output of at
