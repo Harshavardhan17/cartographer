@@ -8,7 +8,7 @@ Built in the open over 30 days. Each day adds one capability and one write-up.
 
 ## Status
 
-Day 0. Nothing works yet. Follow along or come back at v1.0.
+Day 3. The agent describes files, carries a growing transcript across them, and meters tokens on every call. The onboarding map is still to come; follow along or come back at v1.0.
 
 ## Why
 
