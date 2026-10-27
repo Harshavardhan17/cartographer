@@ -146,6 +146,8 @@ yesterday.
     if __name__ == "__main__":
         main()
 
+> Update, 27 October 2026: OpenRouter withdrew `nvidia/nemotron-3-super-120b-a12b:free`. Type the line as shown, so your code matches this day's tag, and run with `export CARTOGRAPHER_MODEL=nvidia/nemotron-3.5-super-vl:free`. From Day 04 that is the default.
+
 **What each part does:**
 
 *Imports.* `import json` is new: it turns the transcript into text you can save. The rest

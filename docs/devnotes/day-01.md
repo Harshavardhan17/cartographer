@@ -162,6 +162,8 @@ next six days it grows, but it stays the place where the model is called.
     if __name__ == "__main__":
         main()
 
+> Update, 27 October 2026: OpenRouter withdrew `nvidia/nemotron-3-super-120b-a12b:free`. Type the line as shown, so your code matches this day's tag, and run with `export CARTOGRAPHER_MODEL=nvidia/nemotron-3.5-super-vl:free`. From Day 04 that is the default.
+
 **What each part does:**
 
 *The imports.* `os` reads environment variables, `pathlib` handles file paths as objects

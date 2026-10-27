@@ -88,7 +88,7 @@ runs.
 | Day 01 | [day-01.md](day-01.md) | Why your first agent should be 40 lines, not a framework |
 | Day 02 | [day-02.md](day-02.md) | An LLM is a stateless function. Everything else is you |
 | Day 03 | [day-03.md](day-03.md) | Your repo does not fit in the context window. Now what? |
-| Day 04 | coming | Stop parsing prose. Make the model return a struct |
+| Day 04 | [day-04.md](day-04.md) | Stop parsing prose. Make the model return a struct |
 | Day 05 | coming | Temperature, top-p, and the myth of creative settings |
 | Day 06 | coming | Tool calling, hand-rolled: what the API actually sends |
 | Day 07 | coming | I gave it a repo I had never seen. It found the front door |
